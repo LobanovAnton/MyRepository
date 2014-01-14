@@ -1,0 +1,531 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_EAGLEEYE            ICON                    "EagleEye.ico"
+IDI_ICON_JPG            ICON                    "EagleEyeJpg.ico"
+IDI_ICON_WMF            ICON                    "EagleEyeWmf.ico"
+IDI_ICON_BMP            ICON                    "EagleEyeBmp.ico"
+IDI_ICON_EMF            ICON                    "EagleEyeEmf.ico"
+IDI_ICON_EXIF           ICON                    "EagleEyeExif.ico"
+IDI_ICON_GIF            ICON                    "EagleEyeGif.ico"
+IDI_ICON_PNG            ICON                    "EagleEyePng.ico"
+IDI_ICON_TIFF           ICON                    "EagleEyeTiff.ico"
+IDI_GET_PHOTOS          ICON                    "GetPhotos.ico"
+IDI_VIEW_TILE           ICON                    "View_Tile.ico"
+IDI_ABOUT               ICON                    "About.ico"
+IDI_OPTIONS             ICON                    "Options.ico"
+IDI_VIEW_DETAIL         ICON                    "View_Detail.ico"
+IDI_VIEW_ICON           ICON                    "View_Icon.ico"
+IDI_VIEW_LIST           ICON                    "View_List.ico"
+IDI_ICON_ICO            ICON                    "EagleEyeIco.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PROPFILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 260
+    END
+
+    IDD_GET_PHOTOS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 261
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROPFILE DIALOGEX 0, 0, 277, 267
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "File Property"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,113,246,50,14
+    GROUPBOX        "",IDC_STATIC,7,7,263,230
+    LTEXT           "File name",IDC_STATIC,17,20,80,16,SS_CENTERIMAGE
+    LTEXT           "Full path",IDC_STATIC,17,58,80,16,SS_CENTERIMAGE
+    LTEXT           "Directory",IDC_STATIC,17,39,80,16,SS_CENTERIMAGE
+    LTEXT           "Format",IDC_STATIC,17,77,80,16,SS_CENTERIMAGE
+    LTEXT           "Original size",IDC_STATIC,17,96,80,16,SS_CENTERIMAGE
+    LTEXT           "Original colors",IDC_STATIC,17,115,80,16,SS_CENTERIMAGE
+    LTEXT           "Unique colors",IDC_STATIC,17,134,80,16,SS_CENTERIMAGE
+    LTEXT           "Disk size",IDC_STATIC,17,153,80,16,SS_CENTERIMAGE
+    LTEXT           "Memory size",IDC_STATIC,17,172,80,16,SS_CENTERIMAGE
+    LTEXT           "Directory index",IDC_STATIC,17,210,80,16,SS_CENTERIMAGE
+    LTEXT           "File date/time",IDC_STATIC,17,191,80,16,SS_CENTERIMAGE
+    EDITTEXT        IDC_PROP_FILENAME,98,22,165,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_PROP_DIRECTORY,98,41,165,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_PROP_PATH,98,60,165,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_PROP_FORMAT,98,79,165,12,ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_PROP_SIZE,98,98,165,12,ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_PROP_COLORS,98,117,165,12,ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_PROP_UNCOLORS,98,136,165,12,ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_PROP_DISKSIZE,98,155,165,12,ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_PROP_MEMSIZE,98,174,165,12,ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_PROP_DATE,98,193,165,12,ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_PROP_DIRINDEX,98,212,165,12,ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+END
+
+IDD_GET_PHOTOS DIALOGEX 0, 0, 281, 268
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Get photos dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Get photos",IDOK,69,247,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,161,247,50,14
+    EDITTEXT        IDC_EDIT_SUBFOLDER,81,119,126,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LOCATION,81,99,126,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Browse...",IDC_BUTTON_BROWSE,217,99,50,14
+    GROUPBOX        "File names",IDC_STATIC,7,7,267,71
+    GROUPBOX        "Destination folder",IDC_STATIC,7,83,267,65
+    CONTROL         "Delete images from device after placing on hard drive",IDC_CHECK_DELETE_AFTER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,158,259,12
+    CONTROL         "Keep original file names",IDC_RADIO_KEEP_FILE_NAMES,
+                    "Button",BS_AUTORADIOBUTTON,13,26,259,12
+    CONTROL         "Using data/time for file names",IDC_RADIO_DATA_FILE_NAMES,
+                    "Button",BS_AUTORADIOBUTTON,13,49,259,12
+    GROUPBOX        "Progress",IDC_STATIC,7,198,267,41
+    CONTROL         "",IDC_PROGRESS_PROGRESS,"msctls_progress32",WS_BORDER,7,211,267,18
+    LTEXT           "Location",IDC_STATIC,17,99,61,14
+    LTEXT           "Create subfolder",IDC_STATIC,17,119,61,14
+    PUSHBUTTON      "Get date",IDC_BUTTON_GET_DATE,217,119,50,14
+    CONTROL         "Go to the location directory after copying images",IDC_CHECK_GO_TO_DIRECTORY,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,177,259,12
+END
+
+IDD_ABOUT DIALOGEX 0, 0, 272, 153
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Eagle Eye"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,209,129,50,14
+    CONTROL         175,IDC_IMAGE_CONTROL,"Static",SS_BITMAP,0,0,273,43
+    LTEXT           "",IDC_STATIC,67,58,165,59
+    ICON            IDI_EAGLEEYE,IDC_STATIC,17,58,20,20
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "Fit To Window",               ID_FIT
+        MENUITEM "Full Size",                   ID_FULL
+        MENUITEM "Full Screen",                 ID_FULLSCREEN
+        MENUITEM SEPARATOR
+        MENUITEM "Bilinear Mode",               ID_BILINEARMODE
+        MENUITEM SEPARATOR
+        MENUITEM "Thumbnails",                  ID_THUMBNAILS
+        MENUITEM SEPARATOR
+        POPUP "WallPaper"
+        BEGIN
+            MENUITEM "Centered",                    ID_WALLPAPER_CENTERED
+            MENUITEM "Tiled",                       ID_WALLPAPER_TILED
+            MENUITEM "Stretch",                     ID_WALLPAPER_STRETCH
+        END
+        MENUITEM SEPARATOR
+        POPUP "Component"
+        BEGIN
+            MENUITEM "R Component",                 ID_RCOMPONENT, CHECKED
+            MENUITEM "G Component",                 ID_GCOMPONENT, CHECKED
+            MENUITEM "B Component",                 ID_BCOMPONENT, CHECKED
+            MENUITEM "A Component",                 ID_ACOMPONENT
+            MENUITEM "Grayscale",                   ID_GRAYSCALE
+        END
+        MENUITEM SEPARATOR
+        POPUP "Edit"
+        BEGIN
+            MENUITEM "Copy",                        ID_EDIT_COPY
+        END
+        MENUITEM SEPARATOR
+        POPUP "Flip & Rotate"
+        BEGIN
+            MENUITEM "Horizontal Flip",             ID_HORIZONTALFLIP
+            MENUITEM "Vertical Flip",               ID_VERTICALFLIP
+            MENUITEM "Rotate 90",                   ID_ROTATE90
+        END
+        MENUITEM SEPARATOR
+        POPUP "File"
+        BEGIN
+            MENUITEM "Open File",                   ID_OPENFILE
+            MENUITEM "Save File",                   ID_SAVEFILE
+            MENUITEM "Save File As...",             ID_SAVEFILEAS
+            MENUITEM SEPARATOR
+            MENUITEM "Copy",                        ID_FILE_COPY
+            MENUITEM "Copy To...",                  ID_FILE_COPYTO
+            MENUITEM SEPARATOR
+            MENUITEM "Delete File",                 ID_DELETEFILE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Options",                     ID_MENU_OPTIONS
+        MENUITEM SEPARATOR
+        MENUITEM "EXIF Property",               ID_PROPERTYEXIF
+        MENUITEM SEPARATOR
+        MENUITEM "File Property",               ID_MENU_PROPFILE
+    END
+END
+
+IDR_MENU2 MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Get photos from camera",      ID_MENU_GETPICTURE
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",                        ID_MENU_EXIT
+    END
+    POPUP "View"
+    BEGIN
+        POPUP "View mode"
+        BEGIN
+            MENUITEM "List",                        ID_VIEWMODE_LIST
+            MENUITEM "Icon",                        ID_VIEWMODE_ICON
+            MENUITEM "Details",                     ID_VIEWMODE_DETAILS
+            MENUITEM "Tiles",                       ID_VIEWMODE_TILES
+        END
+    END
+    POPUP "Options"
+    BEGIN
+        MENUITEM "Options",                     ID_MENU_OPTIONS
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "About",                       ID_MENU_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_ABOUT_SPLASH        BITMAP                  "splash.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,5
+ PRODUCTVERSION 1,0,0,5
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x0L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "Comments", "Simple images viewer"
+            VALUE "FileDescription", "EagleEye"
+            VALUE "FileVersion", "1, 0, 0, 5"
+            VALUE "InternalName", "EagleEye"
+            VALUE "LegalCopyright", "Copyright (C) 2008"
+            VALUE "OriginalFilename", "EagleEye"
+            VALUE "ProductName", "Eagle Eye"
+            VALUE "ProductVersion", "1, 0, 0, 5"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "EagleEye"
+    IDS_STRING_FULLSCREEN   "Full screen"
+    IDS_STRING_WINDOW       "Window"
+    IDS_STRING_BILINEAR     "Bilinear"
+    IDS_STRING_NEAREST      "Nearest"
+    IDS_STRING_PIXEL        "pixel(s)"
+    IDS_STRING_UNKNOWN      "Unknown file format"
+    IDS_STRING_4INDEXED     "4 indexed"
+    IDS_STRING_8INDEXED     "8 indexed"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING_16RGB        "16 RGB"
+    IDS_STRING_24RGB        "24 RGB"
+    IDS_STRING_32RGB        "32 RGB"
+    IDS_STRING_32ARGB       "32 ARGB"
+    IDS_STRING_48RGB        "48 RGB"
+    IDS_STRING_64ARGB       "64 ARGB"
+    IDS_STRING_FILEINFO     "FileInfo:"
+    IDS_STRING_ZOOMED       "Zoomed:"
+    IDS_STRING_FILES        "Files:"
+    IDS_STRING_SIZE         "Size:"
+    IDS_STRING_MB           "Mb"
+    IDS_STRING_TAG          "Tag"
+    IDS_STRING_VALUE        "Value"
+    IDS_STRING_EXIFNOTAVAILABLE "EXIF properties not available"
+    IDS_STRING_CANONMN      "Canon maker notes"
+    IDS_STRING_BPP          "bits per pixel"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRING_PIXELS       "Pixels"
+    IDS_STRING_MPIXELS      "MPixels"
+    IDS_STRING_BYTES        "Bytes"
+    IDS_GET_PHOTOS          "Get photos"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_EAGLEEYE            "EagleEye"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_VIEW_LIST           "List"
+    IDS_VIEW_ICON           "Icon"
+    IDS_VIEW_DETAILS        "Details"
+    IDS_VIEW_TILES          "Tiles"
+    IDS_OPTIONS             "Options"
+    IDS_ABOUT               "About"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_EXT1                "jpeg"
+    IDS_EXT2                "jpg"
+    IDS_EXT3                "jpe"
+    IDS_EXT4                "jfif"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_EXT5                "tiff"
+    IDS_EXT6                "tif"
+    IDS_EXT7                "bmp"
+    IDS_EXT8                "png"
+    IDS_EXT9                "gif"
+    IDS_EXT10               "exif"
+    IDS_EXT11               "emf"
+    IDS_EXT12               "wmf"
+    IDS_EXT13               "ico"
+    IDS_EXT14               "tga"
+    IDS_EXT15               "psd"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_THUMBNAILS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 167
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_OPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 266
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 333
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROPEXIF DIALOGEX 0, 0, 236, 180
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "EXIF Property"
+FONT 8, "MS Shell Dlg", 400, 0, 0xCC
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_AUTOARRANGE | LVS_NOSORTHEADER | WS_TABSTOP,0,0,236,180,WS_EX_CLIENTEDGE
+END
+
+IDD_THUMBNAILS DIALOGEX 0, 0, 302, 233
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_RTLREADING | WS_EX_APPWINDOW
+CAPTION "Eagle Eye"
+MENU IDR_MENU2
+FONT 8, "MS Shell Dlg", 400, 0, 0xCC
+BEGIN
+    CONTROL         "",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | TVS_TRACKSELECT | WS_TABSTOP,0,0,129,118,WS_EX_STATICEDGE
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_TABSTOP,132,0,169,232,WS_EX_STATICEDGE
+    CONTROL         "",IDC_IMAGE_CONTROL,"Static",SS_OWNERDRAW,3,120,126,112,WS_EX_STATICEDGE
+END
+
+IDD_OPTION DIALOGEX 0, 0, 271, 338
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Options"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Ok",IDOK,43,315,84,18
+    PUSHBUTTON      "Cancel",IDCANCEL,143,315,84,18
+    GROUPBOX        "General",IDC_STATIC,5,5,261,95
+    GROUPBOX        "Thumbnails",IDC_STATIC,5,105,261,131
+    CONTROL         "Thumbnails size",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | SS_CENTERIMAGE | WS_GROUP,12,119,113,13
+    COMBOBOX        IDC_COMBO1,145,119,112,101,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Splitter size",IDC_STATIC,12,140,113,13,SS_CENTERIMAGE
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | WS_TABSTOP,145,140,112,19
+    LTEXT           "Background color",IDC_STATIC,12,23,113,13,SS_CENTERIMAGE
+    PUSHBUTTON      ">>",IDC_BORDER_COLOR_BUTTON,208,23,49,13
+    LTEXT           "",IDC_BORDER_COLOR,145,23,61,13,SS_CENTERIMAGE,WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_SPLITTER_SIZE_TEXT,145,162,112,10,SS_CENTERIMAGE
+    LTEXT           "View mode",IDC_STATIC,12,42,113,13,SS_CENTERIMAGE
+    CONTROL         "",IDC_FULLSCREEN,"Button",BS_AUTOCHECKBOX | BS_CENTER | BS_VCENTER | BS_PUSHLIKE | BS_NOTIFY | WS_TABSTOP,145,44,112,12
+    LTEXT           "Background color",IDC_STATIC,12,176,113,13
+    LTEXT           "",IDC_BACKTH_COLOR,145,176,61,13,SS_CENTERIMAGE,WS_EX_CLIENTEDGE
+    PUSHBUTTON      ">>",IDC_BACKTH_COLOR_BUTTON,208,176,49,13
+    LTEXT           "Interpolation mode",IDC_STATIC,12,61,113,13,SS_CENTERIMAGE
+    CONTROL         "",IDC_BILINEAR,"Button",BS_AUTOCHECKBOX | BS_CENTER | BS_VCENTER | BS_PUSHLIKE | BS_NOTIFY | WS_TABSTOP,145,63,112,12
+    LTEXT           "Thumbnails cache folder",IDC_STATIC,12,196,113,13,SS_CENTERIMAGE
+    PUSHBUTTON      "Select folder",IDC_SEL_FOLDER,145,214,54,12
+    PUSHBUTTON      "Clean folder",IDC_CLEAN_FOLDER,203,214,54,12
+    EDITTEXT        IDC_CUR_CACHE_DIR,145,196,112,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "File Associations",IDC_STATIC,5,242,261,64
+    CONTROL         "",IDC_CHECK_EXT1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,257,34,13
+    CONTROL         "",IDC_CHECK_EXT2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,270,34,13
+    CONTROL         "",IDC_CHECK_EXT3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,283,34,13
+    CONTROL         "",IDC_CHECK_EXT4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,68,257,34,13
+    CONTROL         "Integrate in folder context menu",IDC_CHECK_FOLDER_CONTEXT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,80,119,13
+    CONTROL         "",IDC_CHECK_EXT5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,68,270,34,13
+    CONTROL         "",IDC_CHECK_EXT6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,68,283,34,13
+    CONTROL         "",IDC_CHECK_EXT7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,119,257,34,13
+    CONTROL         "",IDC_CHECK_EXT8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,119,270,34,13
+    CONTROL         "",IDC_CHECK_EXT9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,119,283,34,13
+    CONTROL         "",IDC_CHECK_EXT10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,257,34,13
+    CONTROL         "",IDC_CHECK_EXT11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,270,34,13
+    CONTROL         "",IDC_CHECK_EXT12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,170,283,34,13
+    CONTROL         "",IDC_CHECK_EXT13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,221,257,34,13
+    CONTROL         "",IDC_CHECK_EXT14,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,221,270,34,13
+    CONTROL         "",IDC_CHECK_EXT15,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,221,283,34,13
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

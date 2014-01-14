@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EagleEye", "EagleEye\EagleEye.vcproj", "{B4EE4878-A32C-474B-906D-26C7DCF61F08}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EagleEye Setup", "Setup\Setup.vdproj", "{E4639D12-133B-4F98-91DB-93A1CF5ED6E6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B4EE4878-A32C-474B-906D-26C7DCF61F08} = {B4EE4878-A32C-474B-906D-26C7DCF61F08}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4EE4878-A32C-474B-906D-26C7DCF61F08}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4EE4878-A32C-474B-906D-26C7DCF61F08}.Debug|Win32.Build.0 = Debug|Win32
+		{B4EE4878-A32C-474B-906D-26C7DCF61F08}.Release|Win32.ActiveCfg = Release|Win32
+		{B4EE4878-A32C-474B-906D-26C7DCF61F08}.Release|Win32.Build.0 = Release|Win32
+		{E4639D12-133B-4F98-91DB-93A1CF5ED6E6}.Debug|Win32.ActiveCfg = Debug
+		{E4639D12-133B-4F98-91DB-93A1CF5ED6E6}.Release|Win32.ActiveCfg = Release
+		{E4639D12-133B-4F98-91DB-93A1CF5ED6E6}.Release|Win32.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
